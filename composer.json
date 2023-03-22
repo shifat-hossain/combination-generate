@@ -1,0 +1,26 @@
+{
+    "name": "aiz-packages/combination-generate",
+    "description": "Generate combinations of items in multiple arrays",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AizPackages\\CombinationGenerate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shifat Hossain",
+            "email": "amithassan3229@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AizPackages\\CombinationGenerate\\CombinationServiceProvider"
+            ]
+        }
+    }
+}

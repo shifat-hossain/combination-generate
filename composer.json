@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AizPackages\\CombinationGenerate\\CombinationServiceProvider"
+                "AizPackages\\CombinationGenerate\\Providers\\CombinationServiceProvider"
             ]
         }
     }

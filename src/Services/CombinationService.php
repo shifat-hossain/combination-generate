@@ -9,7 +9,11 @@ class CombinationService {
             return array();
         }
         if ($i == count($arrays) - 1) {
-            return $arrays[$i];
+            $result = array();
+            foreach ($arrays[$i] as $v) {
+                $result[][] = $v;
+            }
+            return $result;
         }
     
         // get combinations from subsequent arrays
